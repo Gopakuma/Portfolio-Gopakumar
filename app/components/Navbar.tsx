@@ -11,7 +11,7 @@ function Navbar() {
             </header>
             <div className="text-white text-xs font-semibold md:20">
                 {
-                    navbarData.map(data => <Links styles={"p-5 transition-all duration-500 hover:tracking-widest"} href={data.link} body={data.name} />)
+                    navbarData.map((data) => <Links key={data.id} styles={"p-5 transition-all duration-500 hover:tracking-widest"} href={data.link} body={data.name} />)
                 }
             </div>
         </div >

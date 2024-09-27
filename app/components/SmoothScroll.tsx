@@ -1,13 +1,21 @@
 'use client';
 
-import { ReactLenis, useLenis } from '@studio-freight/react-lenis';
-import React, { useEffect } from 'react';
+import { ReactLenis } from '@studio-freight/react-lenis';
+import React from 'react';
 
-function SmoothScrollHandler({ children }: any) {
+function SmoothScrollHandler({
+    children,
+}: Readonly<{
+    children: React.ReactNode;
+}>) {
     return <div>{children}</div>;
 }
 
-function SmoothScroll({ children }: any) {
+function SmoothScroll({
+    children,
+}: Readonly<{
+    children: React.ReactNode;
+}>) {
     return (
         <ReactLenis root options={{ lerp: 0.1, duration: 1, smoothWheel: true }}>
             <SmoothScrollHandler>{children}</SmoothScrollHandler>

@@ -27,7 +27,7 @@ function Skillset() {
             <div className="card bg-base-100 w-100% shadow-xl -z-10 flex">
                 <div className='flex justify-between p-20'>
                     {
-                        images.map(img => (<Image src={img} alt='logo' />))
+                        images.map((img, index) => (<Image key={index} src={img} alt='logo' />))
                     }
                 </div>
                 <div className="card-body">

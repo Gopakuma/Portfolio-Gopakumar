@@ -3,12 +3,13 @@ import Link from "next/link"
 type props = {
     styles: string,
     href: string,
-    body: string
+    body: string,
+    key: number
 }
 
-function Links({ styles, href, body }: props) {
+function Links({ key, styles, href, body }: props) {
     return (
-        <Link className={styles} href={href}> {body} </Link>
+        <Link id={String(key)} className={styles} href={href}> {body} </Link>
     )
 }
 

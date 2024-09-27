@@ -7,7 +7,6 @@ type TEmailBody = {
 export const sendContactForm = async (data: TEmailBody): Promise<Response> => {
     const url = new URL("/contact", window.location.href);
 
-    // Add parameters to the URL
     Object.entries(data).forEach(([key, value]) => {
         url.searchParams.append(key, value);
     });

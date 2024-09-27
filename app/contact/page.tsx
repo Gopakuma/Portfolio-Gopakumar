@@ -1,3 +1,4 @@
+import { IncomingMessage } from "http";
 import nodemailer from "nodemailer"
 
 type TEmailBody = {
@@ -6,18 +7,17 @@ type TEmailBody = {
     message: string;
 };
 
-
 const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 587,
-    secure: false, // true for port 465, false for other ports
+    secure: false,
     auth: {
         user: "gopakumarg893@gmail.com",
         pass: "rayq stcm nzlk avds",
     },
 });
 
-export default async function POST(req: any) {
+export default async function POST(req: IncomingMessage & { body: TEmailBody }) {
     const data: TEmailBody = await req.searchParams;
     const info = await transporter.sendMail({
         from: data.email, // sender address

@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Bio from "./Bio"
 import MoreInfo from "./MoreInfo"
 import Education from "./Education"
@@ -19,13 +19,7 @@ const sections = [
 
 function About() {
     const [currentSection, setSection] = useState<string>("BIO")
-    let sectionElement = sections.find(section => section.sectionName === currentSection)?.element ?? localStorage.getItem("section") ?? currentSection;
-
-    console.log("currentSection", currentSection)
-
-    useEffect(() => {
-        sectionElement = localStorage.getItem("section") ?? currentSection
-    }, [])
+    const sectionElement = sections.find(section => section.sectionName === currentSection)?.element ?? localStorage.getItem("section") ?? currentSection;
 
     const handleSectionClick = (key: string) => {
         setSection(key);
