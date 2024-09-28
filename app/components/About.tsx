@@ -1,10 +1,10 @@
-import Cards from "./Cards"
 import TimeLine from "./TimeLine"
 
 function About() {
     return (
         <>
-            <section id="about" className=" bg-base-100
+            <section id="about" className=" group
+                                            bg-base-100
                                             relative
                                             text-white 
                                             shadow-xl 
@@ -25,17 +25,16 @@ function About() {
                     <div className="w-full absolute
                                     xs-mobile:top-80
                                     sm:top-20
-                                    ">
-                        <h1 className="bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500  
+                                        ">
+                        <h1 className=" 
+                                        bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500  
                                         font-extrabold    
                                         xs-mobile:text-center xs-mobile:text-2xl
                                         sm:text-center sm:text-5xl
                                         md:text-center md:text-6xl
-                                        lg:text-6xl
+                                        lg:text-8xl lg:font-semibold
                                         text-transparent
-                                        hover:scale-100
-                                        duration-500
-                                        hover:tracking-widest">
+                                        ">
                             MY JOURNEY SO FAR</h1>
                     </div>
                     <TimeLine />

@@ -3,8 +3,8 @@ import navbarData from './data/Navbar.json';
 
 function Navbar() {
     return (
-        <div className="sticky top-0 z-20">
-            <header className="navbar .fixed lg:top-0
+        <div className="fixed top-0 z-20 w-full">
+            <header className="navbar sticky lg:top-0
              bg-gradient-to-r
              from-pink-600 to-purple-600 rounded-md blur opacity-35
              lg:text-primary-content lg:flex 
@@ -20,7 +20,6 @@ function Navbar() {
                 }
             </div>
         </div >
-
     )
 }
 

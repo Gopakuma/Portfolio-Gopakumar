@@ -5,8 +5,10 @@ import Skillset from "./components/Skillset";
 import Contact from "./components/Contact";
 import Avatar from "./components/Avatar";
 import Socials from "./components/Socials";
-import HeroFooter from "./components/HeroFooter";
 import Cards from "./components/Cards";
+import Banner from "./components/Banner";
+import Experience from "./components/Experience";
+
 
 export default function Home() {
 
@@ -23,7 +25,7 @@ export default function Home() {
         <Socials />
       </div>
       <About />
-      {/* <HeroFooter /> */}
+      <Banner />
       <div className="
                       xs-mobile:h-screen xs-mobile:w-screen
                       xs-mobile:mt-96
@@ -36,10 +38,18 @@ export default function Home() {
         ">
         <Cards />
       </div>
-      <div className="relative xs-mobile:top-96 sm:top-0">
-        {/* <Skillset /> */}
+      <div className="relative ">
+        <Skillset />
       </div>
-      {/* <Contact /> */}
+      <div id="experience">
+        <Experience />
+      </div>
+      <div className="relative m-5">
+        <Contact />
+      </div>
+      <div className="blur-md">
+        <Banner />
+      </div>
     </div>
   );
 }

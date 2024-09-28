@@ -2,10 +2,11 @@ function Bio() {
     return (
         <section className="tracking-widest
         text-pretty
+        shadow-xl
         min-h-80
-         xs-mobile:p-0 xs-mobile:m-0 xs-mobile:text-xs
-         mobile:p-20 mobile:m-0 mobile:text-2xl
-         hover:scale-105 duration-500">
+        xs-mobile:p-20 xs-mobile:m-0 xs-mobile:text-xs
+        mobile:p-20 mobile:m-0 mobile:text-2xl
+        hover:scale-105 duration-500">
             <p className=' 
                      xs-mobile:text-xs
                      xs-mobile:text-center

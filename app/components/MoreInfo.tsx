@@ -7,6 +7,7 @@ type props = {
 function MoreInfo({ section, onClick }: props) {
     return (
         <button onClick={() => onClick()} className="btn rounded-r-badge
+                                        hover:scale-105 duration-500
                                         bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500 
                                         xs-mobile:text-xs 
                                         xs-mobile:ml-5 
@@ -17,7 +18,7 @@ function MoreInfo({ section, onClick }: props) {
                                         lg:ml-20 lg:p-4
                                         xl:ml-20 xl:p-4
                                         2xl:ml-20 2xl:p-6 2xl:mt-0
-                                        font-extrabold text-transparent hover:bg-white">{section}</button>
+                                        font-extrabold text-transparent">{section}</button>
 
     )
 }

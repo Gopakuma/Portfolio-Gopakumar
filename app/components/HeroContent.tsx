@@ -1,4 +1,5 @@
 import CVButton from "./CVButton"
+import HeroFooter from "./HeroFooter"
 import ExampleComponent from "./TypeAnimation"
 
 function HeroContent() {
@@ -8,6 +9,7 @@ function HeroContent() {
                 <ExampleComponent />
             </div>
             <CVButton />
+            <HeroFooter />
         </section>
     )
 }

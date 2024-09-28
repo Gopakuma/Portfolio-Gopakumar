@@ -14,6 +14,7 @@ function Certifications() {
             <div className="carousel 
             carousel-center 
             rounded-box
+            shadow-xl
             max-h-80
             xs-mobile:0
             xs-mobile:p-2

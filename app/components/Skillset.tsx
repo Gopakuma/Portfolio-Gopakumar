@@ -7,6 +7,7 @@ import nextJsIcon from '../public/next-js-icon.png';
 import reactJsIcon from '../public/react-js-icon.png';
 import typeScriptIcon from '../public/ts-icon.png';
 import Image from 'next/image';
+import Banner from './Banner';
 
 type StaticImageData = typeof javascriptIcon;
 
@@ -23,21 +24,30 @@ const images: StaticImageData[] = [
 
 function Skillset() {
     return (
-        <div id="skillsets" className=" relative   
-                                      xs-mobile:w-screen xs-mobile:mt-40
-                                      mobile:w-screen mobile:mt-40
+        <div id="skillsets" className=" relative 
+                                        hover:scale-105 duration-500  
+                                      xs-mobile:w-screen xs-mobile:p-10
+                                      mobile:w-screen
                                       sm:w-screen sm:m-0
                                       md:w-screen md:m-0
-                                      lg:m-28 lg:p-20">
+                                      lg:m-0 lg:p-2
+                                      2xl:m-0 2xl:p-2
+                                      ">
+            <Banner />
+
             <div className="card bg-base-100 
                             shadow-xl 
                             xs-mobile:flex-col
-                            mobile:m-20
-                            sm:m-20
-                            md:m-24
+                            mobile:p-5
+                            sm:m-20 sm:p-10
+                            md:m-24 md:p-20
+                            lg:p-4
                             -z-10 ">
                 <div className='lg:flex lg:justify-between lg:p-20
-                                xs-mobile:ml-36 xs-mobile:scale-75'>
+                                xs-mobile:ml-28
+                                mobile:mr-0
+                                sm:ml-32
+                                xs-mobile:scale-75'>
                     {
                         images.map((img, index) => (<Image key={index} src={img} alt='logo' />))
                     }
