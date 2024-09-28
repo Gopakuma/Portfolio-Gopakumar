@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Skillset from "./components/Skillset";
 import Contact from "./components/Contact";
 import Avatar from "./components/Avatar";
-import Socials from "./components/Socials";
 import Cards from "./components/Cards";
 import Banner from "./components/Banner";
 import Experience from "./components/Experience";
@@ -22,10 +21,8 @@ export default function Home() {
                       shadow-lg">
         <Hero />
         <Avatar />
-        <Socials />
       </div>
       <About />
-      <Banner />
       <div className="
                       xs-mobile:h-screen xs-mobile:w-screen
                       xs-mobile:mt-96

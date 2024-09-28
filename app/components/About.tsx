@@ -38,6 +38,7 @@ function About() {
                             MY JOURNEY SO FAR</h1>
                     </div>
                     <TimeLine />
+
                 </div>
             </section>
         </>

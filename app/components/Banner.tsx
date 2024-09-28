@@ -1,6 +1,6 @@
 function Banner() {
     return (
-        <header className="navbar lg:top-0
+        <header className="navbar
         bg-gradient-to-r
         from-pink-600 to-purple-600 blur-md opacity-100 
         ">

@@ -1,5 +1,5 @@
 import CVButton from "./CVButton"
-import HeroFooter from "./HeroFooter"
+import Socials from "./Socials"
 import ExampleComponent from "./TypeAnimation"
 
 function HeroContent() {
@@ -9,7 +9,7 @@ function HeroContent() {
                 <ExampleComponent />
             </div>
             <CVButton />
-            <HeroFooter />
+            <Socials />
         </section>
     )
 }

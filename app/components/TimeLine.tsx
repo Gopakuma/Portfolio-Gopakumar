@@ -1,3 +1,5 @@
+import HeroFooter from "./HeroFooter"
+
 function TimeLine() {
     return (
         <section className="xs-mobile:scale-75">
@@ -97,6 +99,7 @@ function TimeLine() {
                     <div className="timeline-end timeline-box hover:scale-110 duration-500">MBA Graduation</div>
                 </li>
             </ul>
+            <HeroFooter />
         </section>
     )
 }

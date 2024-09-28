@@ -8,9 +8,9 @@ export default function Avatar() {
         2xl:w-72 2xl:h-72 2xl:right-0 2xl:top-20 2xl:left-3/4
         lg:w-64 lg:h-64 lg:right-0 lg:top-20 lg:left-3/4
         md:w-60 md:h-60 md:right-0 md:top-24 md:left-2/3
-        sm:w-40 sm:h-40 sm:right-0 sm:top-10 sm:left-2/3
+        sm:w-40 sm:h-40 sm:right-0 sm:top-24 sm:left-2/3
         mobile:w-60 mobile:h-60 mobile:right-1/3 mobile:top-72 mobile:left-1/3 
-        xs-mobile:w-40 xs-mobile:h-40 xs-mobile:right-0 xs-mobile:top-80 xs-mobile:left-24
+        xs-mobile:w-64 xs-mobile:h-64 xs-mobile:right-0 xs-mobile:top-80 xs-mobile:left-24
         hover:scale-105 duration-500">
             <Image
                 className="ring-purple-600 ring-offset-base-100 rounded-full -z-8 ring ring-offset-2"
