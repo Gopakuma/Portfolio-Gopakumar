@@ -11,14 +11,20 @@ import sql_in from './data/certs/sql_intermediate.jpg';
 function Certifications() {
     return (
         <section>
-            <div className="carousel carousel-center rounded-box">
+            <div className="carousel 
+            carousel-center 
+            rounded-box
+            max-h-80
+            xs-mobile:0
+            xs-mobile:p-2
+            ">
                 <div className="carousel-item">
                     <Image
                         src={js_basic}
                         alt="js_basic"
                         width={400}
                         height={400}
-                        quality={80}
+                        quality={70}
                     />
                 </div>
                 <div className="carousel-item">
@@ -27,7 +33,7 @@ function Certifications() {
                         alt="js_basic"
                         width={400}
                         height={400}
-                        quality={80}
+                        quality={70}
                     />
                 </div>
                 <div className="carousel-item">
@@ -36,7 +42,7 @@ function Certifications() {
                         alt="js_basic"
                         width={400}
                         height={400}
-                        quality={80}
+                        quality={70}
                     />
                 </div>
                 <div className="carousel-item">
@@ -45,7 +51,7 @@ function Certifications() {
                         alt="js_basic"
                         width={400}
                         height={400}
-                        quality={80}
+                        quality={70}
                     />
                 </div>
                 <div className="carousel-item">
@@ -54,7 +60,7 @@ function Certifications() {
                         alt="js_basic"
                         width={400}
                         height={400}
-                        quality={80}
+                        quality={70}
                     />
                 </div>
                 <div className="carousel-item">
@@ -63,7 +69,7 @@ function Certifications() {
                         alt="js_basic"
                         width={400}
                         height={400}
-                        quality={80}
+                        quality={70}
                     />
                 </div>
             </div>

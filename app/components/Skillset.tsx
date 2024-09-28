@@ -23,9 +23,21 @@ const images: StaticImageData[] = [
 
 function Skillset() {
     return (
-        <div id="skillsets" className="m-28 p-20">
-            <div className="card bg-base-100 w-100% shadow-xl -z-10 flex">
-                <div className='flex justify-between p-20'>
+        <div id="skillsets" className=" relative   
+                                      xs-mobile:w-screen xs-mobile:mt-40
+                                      mobile:w-screen mobile:mt-40
+                                      sm:w-screen sm:m-0
+                                      md:w-screen md:m-0
+                                      lg:m-28 lg:p-20">
+            <div className="card bg-base-100 
+                            shadow-xl 
+                            xs-mobile:flex-col
+                            mobile:m-20
+                            sm:m-20
+                            md:m-24
+                            -z-10 ">
+                <div className='lg:flex lg:justify-between lg:p-20
+                                xs-mobile:ml-36 xs-mobile:scale-75'>
                     {
                         images.map((img, index) => (<Image key={index} src={img} alt='logo' />))
                     }

@@ -1,7 +1,13 @@
 function TimeLine() {
     return (
-        <section>
-            <ul className="timeline">
+        <section className="xs-mobile:scale-75">
+            <ul className="
+             xs-mobile:flex-col xs-mobile:mt-64 xs-mobile:p-20 
+             sm:mt-8 sm:p-30
+             md:mt-8 md:p-32
+             lg:timeline lg:flex-row lg:mt-60 lg:justify-center lg:p-24 lg:scale-105
+             2xl:timeline 2xl:flex-row 2xl:mt-60 2xl:justify-center 2xl:p-32 2xl:scale-150
+             ">
                 <li>
                     <div className="timeline-start hover:scale-150 duration-500">2000</div>
                     <div className="timeline-middle">
