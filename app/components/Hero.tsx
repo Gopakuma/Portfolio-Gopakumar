@@ -14,7 +14,7 @@ function Hero(): JSX.Element {
                             xl:p-5 xl:h-full xl:top-20 xl:m-14' >
                 <h1 className='font-semibold 
                 bg-clip-text 
-                hover:scale-105 
+                2xl:hover:scale-105 xl:hover:scale-105 lg:hover:scale-105
                 duration-500 
                 hover:tracking-widest
                 text-transparent bg-gradient-to-r from-pink-500 to-violet-500'>
