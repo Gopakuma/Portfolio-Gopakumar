@@ -7,7 +7,7 @@ function CVButton() {
                 <div className="absolute
                                 2xl:hover:scale-105 xl:hover:scale-105 lg:hover:scale-105
                                 2xl:duration-500  xl:hover:duration-500  lg:hover:duration-500 
-                                -inset-3 
+                                2xl:-inset-3  xl:-inset-3 lg:-inset-3
                                 bg-gradient-to-r from-pink-600 to-purple-600 
                                 rounded-md blur opacity-75">
                 </div>

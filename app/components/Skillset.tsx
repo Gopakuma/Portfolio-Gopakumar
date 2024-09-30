@@ -33,7 +33,9 @@ function Skillset() {
                                       lg:m-0 lg:p-2
                                       2xl:m-0 2xl:p-2
                                       ">
-            <Banner />
+            <div className="hidden lg:block md:block">
+                <Banner />
+            </div>
 
             <div className="card bg-base-100 
                             shadow-xl 
