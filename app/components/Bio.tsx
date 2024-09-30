@@ -6,7 +6,9 @@ function Bio() {
         min-h-80
         xs-mobile:p-20 xs-mobile:m-0 xs-mobile:text-xs
         mobile:p-20 mobile:m-0 mobile:text-2xl
-        hover:scale-105 duration-500">
+        2xl:hover:scale-105 xl:hover:scale-105 lg:hover:scale-105
+        2xl:duration-500  xl:hover:duration-500  lg:hover:duration-500 
+        ">
             <p className=' 
                      xs-mobile:text-xs
                      xs-mobile:text-center

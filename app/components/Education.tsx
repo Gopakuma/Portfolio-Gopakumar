@@ -10,8 +10,8 @@ function Education() {
                             '>
             <div className="card bg-base-100
              w-90 shadow-xl 
-             hover:scale-105
-            duration-500">
+             2xl:hover:scale-105 xl:hover:scale-105 lg:hover:scale-105
+             2xl:duration-500  xl:hover:duration-500  lg:hover:duration-500 ">
                 <div className="card-body">
                     <h2 className="card-title text-lg">Master of Business Administration</h2>
                     <p className='text-xs'>Information Technology, SGVU</p>
@@ -22,8 +22,8 @@ function Education() {
             </div>
             <div className="card bg-base-100
              w-90 shadow-xl 
-             hover:scale-105
-            duration-500">
+             2xl:hover:scale-105 xl:hover:scale-105 lg:hover:scale-105
+             2xl:duration-500  xl:hover:duration-500  lg:hover:duration-500 ">
                 <div className="card-body">
                     <h2 className="card-title text-lg">BACHELOR OF SCIENCE</h2>
                     <p className='text-xs'>Computer Science, University of Kerala</p>

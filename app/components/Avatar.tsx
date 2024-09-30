@@ -11,7 +11,9 @@ export default function Avatar() {
         sm:w-40 sm:h-40 sm:right-0 sm:top-24 sm:left-2/3
         mobile:w-60 mobile:h-60 mobile:right-1/3 mobile:top-72 mobile:left-1/3 
         xs-mobile:w-64 xs-mobile:h-64 xs-mobile:right-0 xs-mobile:top-80 xs-mobile:left-24
-        hover:scale-105 duration-500">
+        2xl:hover:scale-105 xl:hover:scale-105 lg:hover:scale-105
+        2xl:duration-500  xl:hover:duration-500  lg:hover:duration-500         
+        ">
             <Image
                 className="ring-purple-600 ring-offset-base-100 rounded-full -z-8 ring ring-offset-2"
                 src={profile}
