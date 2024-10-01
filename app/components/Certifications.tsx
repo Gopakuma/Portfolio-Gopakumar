@@ -16,7 +16,9 @@ function Certifications() {
             rounded-box
             shadow-xl
             max-h-80
+            xxs-mobile:0
             xs-mobile:0
+            xxs-mobile:p-2
             xs-mobile:p-2
             ">
                 <div className="carousel-item">

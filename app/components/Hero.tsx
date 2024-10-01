@@ -5,6 +5,7 @@ function Hero(): JSX.Element {
     return (
         <section>
             <div className='absolute
+                            xxs-mobile:text-xl xxs-mobile:m-4 xxs-mobile:p-4 xxs-mobile:w-screen xxs-mobile:top-20
                             xs-mobile:text-xl xs-mobile:m-4 xs-mobile:p-4 xs-mobile:w-screen xs-mobile:top-20
                             mobile:text-xl mobile:m-2 mobile:p-8
                             sm:text-2xl sm:m-2 sm:p-10 sm:w-3/4 sm:h-full sm:top-20

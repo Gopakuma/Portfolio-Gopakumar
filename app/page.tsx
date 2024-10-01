@@ -14,7 +14,8 @@ export default function Home() {
   return (
     <div id="home" className="overflow-hidden">
       <Navbar />
-      <div className="xs:h-screen sm:h-screen sm:relative 
+      <div className="xxs-mobile:h-screen xxs-mobile:relative
+                      xs:h-screen sm:h-screen sm:relative 
                       xs:relative md:h-screen md:relative 
                       ls:h-screen ls:relative
                       xl:h-screen xl:relative 
@@ -23,13 +24,13 @@ export default function Home() {
         <Avatar />
       </div>
       <About />
-      <div className="
+      <div className="xxs-mobile:h-screen xxs-mobile:w-screen
                       xs-mobile:h-screen xs-mobile:w-screen
                       xs-mobile:mt-96
                       flex-column
                       justify-center  
                       align-items-center
-                      xs-mobile:pt-48
+                      xs-mobile:pt-48 xxs-mobile:pt-48
                       sm:pt-32
                       sm:mt-10
         ">

@@ -8,15 +8,24 @@ function Navbar() {
              bg-gradient-to-r
              from-pink-600 to-purple-600 rounded-md blur opacity-35
              lg:text-primary-content lg:flex 
-             lg:justify-end xs:w-auto sm:w-auto md:w-auto lg:w-auto xs-mobile:w-screen">
+             lg:justify-end
+            xs:w-auto
+            sm:w-auto
+            md:w-auto
+            lg:w-auto 
+            xs-mobile:w-screen
+            xxs-mobile:w-screen">
             </header>
             <div className="text-white
              lg:text-xs 
-             xs-mobile:text-xs xs-mobile:relative
+             xs-mobile:text-xs
+             xs-mobile:relative
+             xxs-mobile:text-xs
+             xxs-mobile:relative
              font-semibold 
              ">
                 {
-                    navbarData.map((data) => <Links key={data.id} styles={"xs-mobile:absoulute xs-mobile:p-2 sm:p-4 lg:p-4 2xl:p-4 md:p-4 transition-all duration-500 hover:tracking-widest"} href={data.link} body={data.name} />)
+                    navbarData.map((data) => <Links key={data.id} styles={"xs-mobile:absoulute xxs-mobile:p-1 xs-mobile:p-2 sm:p-4 lg:p-4 2xl:p-4 md:p-4 transition-all duration-500 hover:tracking-widest"} href={data.link} body={data.name} />)
                 }
             </div>
         </div >

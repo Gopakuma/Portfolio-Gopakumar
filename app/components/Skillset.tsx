@@ -26,6 +26,7 @@ function Skillset() {
     return (
         <div id="skillsets" className=" relative 
                                         hover:scale-105 duration-500  
+                                      xxs-mobile:w-screen xxs-mobile:p-10
                                       xs-mobile:w-screen xs-mobile:p-10
                                       mobile:w-screen
                                       sm:w-screen sm:m-0
@@ -40,23 +41,27 @@ function Skillset() {
             <div className="card bg-base-100 
                             shadow-xl 
                             xs-mobile:flex-col
+                            xxs-mobile:flex-col
                             mobile:p-5
                             sm:m-20 sm:p-10
                             md:m-24 md:p-20
                             lg:p-4
                             -z-10 ">
                 <div className='lg:flex lg:justify-between lg:p-20
+                                xxs-mobile:ml-28
                                 xs-mobile:ml-28
                                 mobile:mr-0
                                 sm:ml-32
-                                xs-mobile:scale-75'>
+                                xxs-mobile:scale-75
+                                xs-mobile:scale-75
+                                '>
                     {
                         images.map((img, index) => (<Image key={index} src={img} alt='logo' />))
                     }
                 </div>
                 <div className="card-body">
-                    <h1 className="card-title">SKILL SETS</h1>
-                    <p>I possess a strong foundation in these technologies and actively expanding my knowledge in these fields.</p>
+                    <h1 className="card-title xxs-mobile:text-xl">SKILL SETS</h1>
+                    <p className='xxs-mobile:text-xl'>I possess a strong foundation in these technologies and actively expanding my knowledge in these fields.</p>
                 </div>
             </div>
         </div>

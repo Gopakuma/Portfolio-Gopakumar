@@ -2,8 +2,9 @@ import HeroFooter from "./HeroFooter"
 
 function TimeLine() {
     return (
-        <section className="xs-mobile:scale-75">
+        <section className="xxs-mobile:scale-75 xs-mobile:scale-75">
             <ul className="
+             xxs-mobile:flex-col xxs-mobile:mt-64 xxs-mobile:p-20 
              xs-mobile:flex-col xs-mobile:mt-64 xs-mobile:p-20 
              sm:mt-8 sm:p-30
              md:mt-8 md:p-32

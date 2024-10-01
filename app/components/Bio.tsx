@@ -4,14 +4,18 @@ function Bio() {
         text-pretty
         shadow-xl
         min-h-80
+        xxs-mobile:p-10 xxs-mobile:m-0 xxs-mobile:text-xs
         xs-mobile:p-20 xs-mobile:m-0 xs-mobile:text-xs
         mobile:p-20 mobile:m-0 mobile:text-2xl
         2xl:hover:scale-105 xl:hover:scale-105 lg:hover:scale-105
         2xl:duration-500  xl:hover:duration-500  lg:hover:duration-500 
         ">
             <p className=' 
+                     xxs-mobile:text-xs
                      xs-mobile:text-xs
+                     xxs-mobile:text-center
                      xs-mobile:text-center
+                     xxs-mobile:text-pretty  
                      xs-mobile:text-pretty  
                      '>
                 As an experienced backend developer, I thrive on crafting elegant code.

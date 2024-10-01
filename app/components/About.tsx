@@ -1,3 +1,4 @@
+import React from "react"
 import TimeLine from "./TimeLine"
 
 function About() {
@@ -9,6 +10,7 @@ function About() {
                                             text-white 
                                             shadow-xl 
                                             -z-10 
+                                            xxs-mobile:w-screen xxs-mobile:m-5 xxs-mobile:p-0 xxs-mobile:h-4/5
                                             xs-mobile:w-screen xs-mobile:m-5 xs-mobile:p-0 xs-mobile:h-4/5
                                             mobile:w-screen mobile:m-5 mobile:p-0 mobile:h-4/5
                                             sm:w-screen sm:m-4 sm:p-0 sm:h-4/5
@@ -17,18 +19,21 @@ function About() {
                                             ">
                 <div className="flex flex-col
                                 relative 
+                                xxs-mobile:h-screen xxs-mobile:top-0
                                 xs-mobile:h-screen xs-mobile:top-96
                                 sm:h-screen sm:top-0
                                 md:h-screen md:top-0
                                 lg:h-screen lg:top-0
                                 items-center gap-10">
                     <div className="w-full absolute
+                                    xxs-mobile:top-72
                                     xs-mobile:top-80
                                     sm:top-20
                                         ">
                         <h1 className=" 
                                         bg-clip-text bg-gradient-to-r from-pink-500 to-violet-500  
                                         font-extrabold    
+                                        xxs-mobile:text-center xxs-mobile:text-xl
                                         xs-mobile:text-center xs-mobile:text-2xl
                                         sm:text-center sm:text-5xl
                                         md:text-center md:text-6xl
@@ -38,7 +43,6 @@ function About() {
                             MY JOURNEY SO FAR</h1>
                     </div>
                     <TimeLine />
-
                 </div>
             </section>
         </>

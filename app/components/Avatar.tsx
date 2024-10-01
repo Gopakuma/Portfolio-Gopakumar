@@ -11,6 +11,7 @@ export default function Avatar() {
         sm:w-40 sm:h-40 sm:right-0 sm:top-24 sm:left-2/3
         mobile:w-60 mobile:h-60 mobile:right-1/3 mobile:top-72 mobile:left-1/3 
         xs-mobile:w-64 xs-mobile:h-64 xs-mobile:right-0 xs-mobile:top-80 xs-mobile:left-24
+        xxs-mobile:w-52 xxs-mobile:h-52 xxs-mobile:right-0 xxs-mobile:top-80 xxs-mobile:left-24
         2xl:hover:scale-105 xl:hover:scale-105 lg:hover:scale-105
         2xl:duration-500  xl:hover:duration-500  lg:hover:duration-500         
         ">
